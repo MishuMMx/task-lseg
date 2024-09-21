@@ -1,14 +1,11 @@
-# Read.me
-Task 1 (Data Points)
+# Template: Robot Framework - Assistant (attended automation)
 
-- for each file added by the user process should return 10 consecutive data points starting from a random timestamp
+The template leverages the RPA.Assistant package to provide the UI functionality. The template shows the different components available in the new library and the basic structure to help you get going.
 
-1) get the list of files
-    - if no files are entered throw SE
-    - add a table with the following header: FileName, Empty?, RowNr, ColumnNr, MultipleStocks
-2) for each file check if:
-    - there are 3 collumns (StockID, Timestamp, Price)
-    - multiple StockID ?
-    - date format is one of dd-MM-yyyy or dd/MM/yyyy (format all as dd-MM-yyyy)
-    
-3) for each OK file sort by timestamp
+More about [attended vs. unattended robots](https://robocorp.com/docs/control-room/attended-or-unattended) and specifically [attended automations](https://robocorp.com/docs/control-room/attended)
+
+## Learning materials
+
+- [Robocorp Developer Training Courses](https://robocorp.com/docs/courses)
+- [Documentation links on Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
+- [Example bots in Robocorp Portal](https://robocorp.com/portal)
